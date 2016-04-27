@@ -1,2 +1,3 @@
 'use strict';
-require('./greater.js');
+var greater = require('./greater.js');
+greater.greet();
