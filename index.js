@@ -1,5 +1,5 @@
 'use strict';
-var greater1 = require('./greater.js')();
-greater1.greet("test1");
-var greater2 = require('./greater.js')();
-greater2.greet();
+var greeter1 = require('./greeter.js')();
+greeter1.greet("test1");
+var greeter2 = require('./greeter.js')();
+greeter2.greet();

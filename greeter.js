@@ -1,14 +1,14 @@
 'use strict';
-module.exports = function makeGreater() {
+module.exports = function makeGreeter() {
     var privateVariable;
-    var greater = {
+    var greeter = {
         prefix: "Hello ",
         suffix: "!",
         greet: function greet(name) {
             name = privateVariable || name || "World";
             privateVariable = name;
-            console.log(greater.prefix + name + greater.suffix);
+            console.log(greeter.prefix + name + greeter.suffix);
         }
     };
-    return greater;
+    return greeter;
 };
